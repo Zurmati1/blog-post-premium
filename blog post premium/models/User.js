@@ -1,0 +1,1 @@
+const m=require('mongoose');const p=require('passport-local-mongoose');const s=new m.Schema({});s.plugin(p);module.exports=m.model('User',s);

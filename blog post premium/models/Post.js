@@ -1,0 +1,1 @@
+const m=require('mongoose');module.exports=m.model('Post',new m.Schema({title:String,author:String,category:String,image:String,content:String,created:{type:Date,default:Date.now}}));
